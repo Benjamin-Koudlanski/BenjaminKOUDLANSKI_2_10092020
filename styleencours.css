@@ -1,0 +1,178 @@
+body
+{
+    margin: 15px 0 0 30px;
+}
+
+/* HEADER */
+
+#header
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: none;
+    margin-bottom: 40px;
+
+}
+.menu
+{
+    background-color: none;
+}
+.menu ul
+{
+    display: flex;
+    list-style-type: none;
+}
+.menu li
+{
+    margin: 0 2vw;
+}
+nav a
+{
+    text-decoration: none;
+    color: #0065FC;
+}
+nav a:hover
+{
+    text-decoration: none;
+    border-top: 2px solid #0065FC;
+    padding-top: 28px;
+}
+nav a:visited
+{
+    color: grey;
+}
+.logo
+{
+    background-color: none;
+}
+.icon
+{
+    width: 90px;
+    height: 40px;
+}
+
+/* SECTION CITY RESEARCH */
+
+#recherche
+{
+    background-color: none;
+}
+.accueil
+{
+    background-color: none;
+}
+.accueil h2, .accueil p
+{
+    margin: 3px 0 0 0;
+}
+.accueil h2
+{
+    font-size: 1.4em;
+}
+
+/* SEARCH BOX */
+
+.search_box
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: none;
+    margin: 12px 0 0 0;
+}
+#maps
+{
+    width: 35px;
+    background-color: #F2F2F2;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    text-align: center;
+    padding-top: 12px;
+}
+.search_city
+{
+    border: 1px solid #F2F2F2;
+    text-align: center;
+    background-color: white;
+    outline: none;
+    width: 220px;
+    height: 33px;
+}
+input
+{
+    color: black;
+    font-weight: bold;
+}
+.search_button
+{
+    background-color: #0065FC;
+    width: 110px;
+    max-height: 34px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    font-size: 1.1em;
+    text-align: center;
+    padding-top: 6px;
+}
+.search_box a
+{
+    text-decoration: none;
+} 
+/* FILTERS */
+
+.filtres
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 15px 0 0 0;
+}
+.eco:hover, .family:hover, .heart:hover, .animals:hover
+{
+    color: red;
+}
+
+/* FILTERS CATEGORIES */
+
+.eco, .family, .heart, .animals
+{   
+    display: flex;
+    justify-content: flex-start;
+    margin: 8px 0px 0 30px;
+}
+.eco i, .family i, .heart i, .animals i
+{
+    width: 35px;
+    height: 25px;
+    border: none;
+    background-color: #DEEBFF;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 9px;
+}
+.eco span, .family span, .heart span, .animals span
+{
+    display: flex;
+    margin: 0 0 13px -11px;
+    padding: 6px 15px 6px 25px;
+    border-top: 2px solid #F2F2F2;
+    border-right: 2px solid #F2F2F2;
+    border-bottom: 2px solid #F2F2F2;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/* TOOLTIP */
+
+.info
+{
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+.info span
+{
+    display: flex;
+    margin: 0 0 0 5px;
+}
