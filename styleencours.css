@@ -1,0 +1,337 @@
+body
+{
+    width: auto;
+    height: auto;
+    margin: 15px 35px 0 35px;
+}
+
+/* HEADER */
+
+#header
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: none;
+    margin-bottom: 40px;
+
+}
+.menu
+{
+    background-color: none;
+}
+.menu ul
+{
+    display: flex;
+    list-style-type: none;
+}
+.menu li
+{
+    margin: 0 2vw;
+}
+nav a
+{
+    text-decoration: none;
+    color: #0065FC;
+}
+nav a:hover
+{
+    text-decoration: none;
+    border-top: 2px solid #0065FC;
+    padding-top: 28px;
+}
+nav a:visited
+{
+    color: grey;
+}
+.logo
+{
+    background-color: none;
+}
+.icon
+{
+    width: 90px;
+    height: 40px;
+}
+
+/* SECTION CITY RESEARCH */
+
+#recherche
+{
+    background-color: none;
+}
+.accueil
+{
+    background-color: none;
+}
+.accueil h2, .accueil p
+{
+    margin: 3px 0 0 0;
+}
+.accueil h2
+{
+    font-size: 1.4em;
+}
+
+/* SEARCH BOX */
+
+.search_box
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: none;
+    margin: 12px 0 0 0;
+}
+#maps
+{
+    width: 35px;
+    background-color: #F2F2F2;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    text-align: center;
+    padding-top: 12px;
+    cursor: pointer;
+}
+.search_city
+{
+    border: 1px solid #F2F2F2;
+    text-align: center;
+    background-color: white;
+    outline: none;
+    width: 220px;
+    height: 33px;
+}
+input
+{
+    color: black;
+    font-weight: bold;
+}
+.search_button
+{
+    background-color: #0065FC;
+    width: 110px;
+    max-height: 34px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    font-size: 1.1em;
+    text-align: center;
+    padding-top: 6px;
+}
+.search_box a
+{
+    text-decoration: none;
+} 
+/* FILTERS */
+
+.filtres
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 15px 0 0 0;
+    cursor: pointer;
+}
+
+/* FILTERS CATEGORIES */
+
+.eco, .family, .heart, .animals
+{   
+    display: flex;
+    justify-content: flex-start;
+    margin: 8px 0px 0 30px;
+}
+.eco i, .family i, .heart i, .animals i
+{
+    width: 35px;
+    height: 25px;
+    border: none;
+    background-color: #DEEBFF;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 9px;
+    color: #0065FC;
+}
+.eco span, .family span, .heart span, .animals span
+{
+    display: flex;
+    margin: 0 0 13px -11px;
+    padding: 6px 15px 6px 25px;
+    border-top: 2px solid #F2F2F2;
+    border-right: 2px solid #F2F2F2;
+    border-bottom: 2px solid #F2F2F2;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.eco:hover, .family:hover, .heart:hover, .animals:hover
+{
+    color: #0065FC;
+}
+
+/* TOOLTIP */
+
+.info
+{
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+.info span
+{
+    display: flex;
+    margin: 0 0 0 8px;
+}
+
+/* SECTION ACCOMMODATION */
+
+#hebergements
+{
+    background-color: #F2F2F2;
+    border-top: 5px solid #F2F2F2;
+    border-right: 5px solid #F2F2F2;
+    border-bottom: 2px solid #F2F2F2;
+    border-left: 5px solid #F2F2F2;
+    border-radius: 16px;
+    width: 910px;
+    height: 620px;
+    margin: 30px 0 0 0;
+}
+#hebergements h2
+{
+    margin: 30px 0 0 30px;
+}
+#accommodations_boxes
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+#hebergements img
+{
+    width: 250px;
+    height: 120px;
+    border-radius: 16px;
+    border-top: 5px solid white;
+    border-right: 5px solid white;
+    border-bottom: 85px solid white;
+    border-left: 5px solid white;
+    background-color: white;
+    box-shadow: 5px 5px 19px #c4c0c0;
+}
+
+/* ACCOMMODATIONS CARD */
+
+#h_un, #h_deux, #h_trois, #h_quatre, #h_cinq, #h_six
+{
+    width: 245px;
+    height: 130px;
+    margin: 30px 15px 80px 30px;
+    cursor: pointer;
+}
+#accommodations_boxes h4
+{
+    margin: -80px 0 0 15px;
+}
+#accommodations_boxes p
+{
+    margin: 7px 0 0 15px;
+    font-size: 0.9em;
+}
+
+/* RATING */
+
+.h_stars_rate
+{
+    margin: 6px 0 0 13px;
+    color: #F2F2F2;
+}
+.checked
+{
+    color: #0065FC;
+}
+
+/* MORE */
+
+.plus
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0 0 15px;
+    font-weight: bold;
+}
+.plus a 
+{
+    text-decoration: none;
+    color: black;
+}
+
+/* BEST HOTELS */
+
+#populaires
+{
+    background-color: #F2F2F2;
+    border-top: 5px solid #F2F2F2;
+    border-right: 5px solid #F2F2F2;
+    border-bottom: 2px solid #F2F2F2;
+    border-left: 5px solid #F2F2F2;
+    border-radius: 16px;
+    width: 400px;
+    height: 620px;
+    margin: -599px 0 0 950px;
+}
+#populaires h2
+{
+    margin: 30px 0 0 30px;
+}
+.chart_icon
+{
+    display: flex;
+    margin: -20px 0 0 348px;
+
+}
+#best_boxes
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+#best_boxes img
+{
+    width: 135px;
+    height: 135px;
+    border-radius: 16px;
+    border-top: 5px solid white;
+    border-right: 195px solid white;
+    border-bottom: 5px solid white;
+    border-left: 5px solid white;
+    background-color: white;
+}
+
+/* BEST BOXES CARD */
+
+#p_un, #p_deux, #p_trois
+{
+    width: 270px;
+    height: 100px;
+    margin: 38px 0 50px 30px;
+    cursor: pointer;
+}
+#best_boxes h4
+{
+    margin: -130px -20px 0 160px;
+}
+#best_boxes p
+{
+    margin: 6px -50px 0 160px;
+    font-size: 0.9em;
+}
+
+/* BEST HOTELS RATING */
+
+.p_stars_rate
+{
+    margin: 35px 0 0 160px;
+    color: #F2F2F2;
+}
+.checked
+{
+    color: #0065FC;
+}
