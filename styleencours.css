@@ -1,0 +1,449 @@
+html, body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+/* HEADER -------------------------------------------------------------*/
+
+#header
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 15px 35px 0 35px;
+}
+.menu
+{
+    background-color: none;
+}
+.menu ul
+{
+    display: flex;
+    list-style-type: none;
+}
+.menu li
+{
+    margin: 0 2vw;
+}
+nav a
+{
+    text-decoration: none;
+    color: #0065FC;
+}
+nav a:hover
+{
+    text-decoration: none;
+ 
+    padding-top: 28px;
+}
+nav a:visited
+{
+    color: grey;
+}
+.icon
+{
+    width: 90px;
+    height: 40px;
+}
+
+/* SECTION CITY RESEARCH -------------------------------------------------------------*/
+
+.accueil
+{
+    background-color: none;
+    margin: 0 35px 0 35px;
+}
+.accueil h2, .accueil p
+{
+    margin: 3px 0 0 0;
+}
+.accueil h2
+{
+    font-size: 1.4em;
+    font-weight: bolder;
+}
+
+/* SEARCH BOX -------------------------------------------------------------*/
+
+.search_box
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 12px 35px 0 35px;
+    width: auto;
+}
+#maps
+{
+    width: 35px;
+    background-color: #F2F2F2;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    text-align: center;
+    padding-top: 12px;
+    cursor: pointer;
+}
+.search_city
+{
+    border: 1px solid #F2F2F2;
+    text-align: center;
+    background-color: white;
+    outline: none;
+    width: 220px;
+    height: 33px;
+}
+input
+{
+    color: black;
+    font-weight: bold;
+}
+.search_button
+{
+    background-color: #0065FC;
+    width: 110px;
+    max-height: 34px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    font-size: 1.1em;
+    text-align: center;
+    padding-top: 6px;
+}
+.search_box a
+{
+    text-decoration: none;
+} 
+/* FILTERS -------------------------------------------------------------*/
+
+#section_filtres
+{
+    width: auto;
+}
+.filtres
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 15px 35px 0 35px;
+    cursor: pointer;
+}
+
+/* FILTERS CATEGORIES -------------------------------------------------------------*/
+
+.eco, .family, .heart, .animals
+{   
+    display: flex;
+    justify-content: flex-start;
+    margin: 8px 0px 0 30px;
+}
+.eco i, .family i, .heart i, .animals i
+{
+    width: 35px;
+    height: 25px;
+    border: none;
+    background-color: #DEEBFF;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 9px;
+    color: #0065FC;
+}
+.eco span, .family span, .heart span, .animals span
+{
+    display: flex;
+    margin: 0 0 13px -15px;
+    padding: 6px 17px 6px 25px;
+    border-top: 2px solid #F2F2F2;
+    border-right: 2px solid #F2F2F2;
+    border-bottom: 2px solid #F2F2F2;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.eco:hover, .family:hover, .heart:hover, .animals:hover
+{
+    color: #0065FC;
+}
+
+/* TOOLTIP */
+
+.info
+{
+    margin: 10px 35px 0 35px;
+    display: flex;
+    justify-content: flex-start;
+}
+.info span
+{
+    display: flex;
+    margin: 0 0 0 8px;
+}
+
+/* SECTION ACCOMMODATION -------------------------------------------------------------*/
+
+#hebergements
+{
+    background-color: #F2F2F2;
+    border-top: 5px solid #F2F2F2;
+    border-right: 5px solid #F2F2F2;
+    border-bottom: 2px solid #F2F2F2;
+    border-left: 5px solid #F2F2F2;
+    border-radius: 16px;
+    width: 910px;
+    height: 620px;
+    margin: 30px 35px 0 35px;
+}
+#hebergements h2
+{
+    margin: 30px 0 0 30px;
+}
+#hebergements img
+{
+    width: 250px;
+    height: 120px;
+    border-radius: 16px;
+    border-top: 5px solid white;
+    border-right: 5px solid white;
+    border-bottom: 85px solid white;
+    border-left: 5px solid white;
+    box-shadow: 5px 5px 19px #c4c0c0;
+}
+#accommodations_box
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* ACCOMMODATIONS CARD -------------------------------------------------------------*/
+
+#h_un, #h_deux, #h_trois, #h_quatre, #h_cinq, #h_six
+{
+    width: 245px;
+    height: 130px;
+    margin: 30px 15px 80px 30px;
+    cursor: pointer;
+}
+#accommodations_box h4
+{
+    margin: -80px 0 0 15px;
+}
+#accommodations_box p
+{
+    margin: 7px 0 0 15px;
+    font-size: 0.9em;
+}
+#h_un:hover, #h_deux:hover, #h_trois:hover, #h_quatre:hover, #h_cinq:hover, #h_six:hover
+{
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+}
+
+/* RATING -------------------------------------------------------------*/
+
+.h_stars_rate
+{
+    margin: 6px 0 0 13px;
+    color: #F2F2F2;
+}
+.checked
+{
+    color: #0065FC;
+}
+
+/* MORE -------------------------------------------------------------*/
+
+.plus
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0 0 15px;
+    font-weight: bold;
+}
+.plus a 
+{
+    text-decoration: none;
+    color: black;
+}
+
+/* BEST HOTELS -------------------------------------------------------------*/
+
+#populaires
+{
+    background-color: #F2F2F2;
+    border-top: 5px solid #F2F2F2;
+    border-right: 5px solid #F2F2F2;
+    border-bottom: 2px solid #F2F2F2;
+    border-left: 5px solid #F2F2F2;
+    border-radius: 16px;
+    width: 400px;
+    height: 620px;
+    margin: -599px 0 0 950px;
+}
+#populaires h2
+{
+    margin: 30px 0 0 30px;
+}
+.chart_icon
+{
+    display: flex;
+    margin: -20px 0 0 348px;
+}
+#best_box
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+#best_box img
+{
+    width: 135px;
+    height: 138px;
+    border-radius: 16px;
+    border-top: 5px solid white;
+    border-right: 195px solid white;
+    border-bottom: 5px solid white;
+    border-left: 5px solid white;
+    box-shadow: 5px 5px 19px #c4c0c0;
+}
+
+/* BEST BOXES CARD -------------------------------------------------------------*/
+
+#p_un, #p_deux, #p_trois
+{
+    width: 270px;
+    height: 100px;
+    margin: 38px 0 38px 30px;
+    cursor: pointer;
+}
+#best_box h4
+{
+    margin: -130px -20px 0 150px;
+}
+#best_box p
+{
+    margin: 6px -50px 0 160px;
+    font-size: 0.9em;
+}
+#p_un:hover, #p_deux:hover, #p_trois:hover
+{
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+}
+
+/* BEST HOTELS RATING -------------------------------------------------------------*/
+
+.p_stars_rate
+{
+    margin: 35px 0 0 160px;
+    color: #F2F2F2;
+}
+.checked
+{
+    color: #0065FC;
+}
+
+/* ACTIVITIES BOXES -------------------------------------------------------------*/
+#activity
+{
+    background-color: white;
+    border-top: 5px solid white;
+    border-right: 5px solid white;
+    border-bottom: 2px solid white;
+    border-left: 5px solid white;
+    margin: 50px 35px 0 35px;
+}
+
+#activity_box
+{
+    display: flex;
+    flex-wrap: nowrap;
+}
+#a_un img, #a_deux img, #a_trois img, #a_quatre img, #a_cinq img, #a_six img
+{
+    width: 315px;
+    border-radius: 16px;
+    border-bottom: 40px solid white;
+    box-shadow: 2px 2px 19px #c4c0c0;
+    cursor: pointer;
+    transition: 1s ease;
+}
+#a_un img, #a_quatre img
+{
+    height: 430px;
+}
+#a_deux img
+{
+    height: 190px;
+}
+#a_trois img
+{
+    height: 150px;
+}
+#a_cinq img
+{
+    height: 160px;
+}
+#a_six img
+{
+    height: 185px;
+}
+#a_un, #a_deux, #a_quatre, #a_cinq
+{
+    margin: 10px 33px 0 0px;
+}
+#a_trois, #a_six
+{
+    margin-right: 31px;
+    margin-bottom: 0;
+    margin-left: -350px;
+}
+#a_trois
+{
+    margin-top: 287px;
+}
+#a_six
+{
+    margin-top: 253px;
+}
+#activity_box h4
+{
+    margin: -33px 0 5px 20px;
+}
+
+/* ACTIVITIES HOVER EFFECT -------------------------------------------------------------*/
+
+#a_un:hover, #a_deux:hover, #a_trois:hover, #a_quatre:hover, #a_cinq:hover, #a_six:hover
+{
+
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+
+/* FOOTER -------------------------------------------------------------*/
+
+footer
+{
+    background:#F2F2F2;
+    margin-top: 55px;
+    padding-bottom: 10px;
+}
+#footer
+{
+    display: flex;
+    justify-content: flex-start;
+}
+#footer1, #footer2, #footer3
+{
+    margin: 8px 170px 0 0;
+    list-style-type: none;
+}
+#footer li
+{
+    margin-bottom: 8px;
+}
+#footer a
+{
+    text-decoration: none;
+    color: black;
+}
