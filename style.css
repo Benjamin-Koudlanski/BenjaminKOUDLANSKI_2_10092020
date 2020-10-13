@@ -104,7 +104,7 @@ input
 {
     background-color: #0065FC;
     width: 110px;
-    height: 31px;
+    max-height: 34px;
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
     font-size: 1.1em;
@@ -450,7 +450,7 @@ footer
 
 @media only screen and (min-device-width: 300px) and (max-device-width: 600px)and (-webkit-min-device-pixel-ratio: 2)and (orientation: portrait)
 {
-    .logo
+  .logo
     {
         width: 270px;
         height: 140px;
@@ -514,7 +514,7 @@ footer
     }
     .search_button
     {
-        width: 200px;
+        width: 180px;
         height: 68px;
         border-radius: 28px;
         padding-top: 28px;
@@ -526,7 +526,123 @@ footer
         font-size: 3em;
         padding-left: 10px;
     }
-
+    .eco, .family, .heart, .animals
+    {
+        margin-top: 160px;
+        font-size: 40px;
+    }
+    .eco
+    {
+        margin-left: -100px;
+        font-size: 40px;
+    }
+    .family
+    {
+        margin-left: 50px;
+    }
+    .heart
+    {
+        margin-top: 5px;
+        margin-left: 50px;
+    }
+    .animals
+    {
+        margin-top: 95px;
+        margin-left: -305px;
+    }
+    .eco i, .family i, .heart i, .animals i
+    {
+        width: 70px;
+        height: 50px;
+        padding-top: 11px;
+    }
+    .eco span, .family span, .heart span, .animals span
+    {
+        margin-top: -1px;
+        margin-left: -25px;
+        padding: -2px 0 -2px -6px;
+    }
+    .info i
+    {
+        margin-top: 3px;
+    }
+    .info
+    {
+        margin-top: 30px;
+        margin-left: 45px;
+        font-size: 1.8em;
+    }
+    #hebergements
+    {
+        background-color: white;
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+    #hebergements h2
+    {
+        font-size: 2em;
+    }
+    #hebergements_box
+    {
+        flex-direction: column;
+        margin-left: -5px;
+        margin-bottom: 50px;
+    }
+    #hebergements img
+    {
+        width: 750px;
+        height: 350px;
+        border-radius: 32px;
+    }
+    #h_un, #h_deux, #h_trois, #h_quatre, #h_cinq, #h_six
+    {
+        margin-bottom: 300px;
+    }
+    .plus
+    {
+        padding-top: 30px;
+    }
+    #populaires
+    {
+        background-color: #F2F2F2;
+        padding-bottom: 450px;
+    }
+    #populaires h2, .chart_icon
+    {
+        font-size: 2em;
+    }
+    #populaires h2
+    {
+        margin-top: 50px;
+        padding-right: 0px;
+    }
+    .chart_icon
+    {
+        margin-top: -30px;
+        padding-left: 510px;
+    }
+    #best_box
+    {
+        flex-direction: column;
+        margin-left: 35px;
+        margin-bottom: 50px; 
+    }
+    #best_box img
+    {
+        width: 350px;
+        height: 280px;
+        padding-right: 100px;
+        background-color: white;
+        border-radius: 32px;
+    }
+    #p_un,#p_deux,#p_trois
+    {
+        margin-bottom: 180px;
+    }
+    #best_box h4, #best_box p, .p_stars_rate
+    {
+        padding-left: 200px;   
+    }
 }
 @media all and (max-width: 1024px)
 {
@@ -537,10 +653,6 @@ footer
     .search_box
     {
         margin-top: 20px;
-    }
-    #glass
-    {
-    display: none;
     }
     .filtres
     {
