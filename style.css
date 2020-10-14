@@ -518,6 +518,7 @@ footer
         height: 68px;
         border-radius: 28px;
         padding-top: 28px;
+        padding-bottom: 29px;
         font-size: 30px;
         margin-left: -22px;
     }
@@ -548,7 +549,7 @@ footer
     .animals
     {
         margin-top: 95px;
-        margin-left: -305px;
+        margin-left: -312px;
     }
     .eco i, .family i, .heart i, .animals i
     {
@@ -559,8 +560,7 @@ footer
     .eco span, .family span, .heart span, .animals span
     {
         margin-top: -1px;
-        margin-left: -25px;
-        padding: -2px 0 -2px -6px;
+        margin-left: -20px;
     }
     .info i
     {
