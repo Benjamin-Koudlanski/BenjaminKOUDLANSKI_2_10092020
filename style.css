@@ -56,13 +56,13 @@ nav a:visited
 {
     margin: 0 35px 0 35px;
 }
-.accueil h2, .accueil p
+.accueil h1, .accueil p
 {
     margin: 3px 0 0 0;
 }
-.accueil h2
+.accueil h1
 {
-    font-size: 1.4em;
+    font-size: 1.5em;
     font-weight: bolder;
 }
 
@@ -348,7 +348,10 @@ input
     border-bottom: 2px;
     margin: 50px 35px 0 35px;
 }
-
+#activity h3
+{
+    font-size: 1.5em;
+}
 #activity_box
 {
     display: flex;
@@ -482,7 +485,7 @@ footer
         margin: 65px 35px 0 0px;
         font-size: 2.8em;
     }
-    .accueil h2
+    .accueil h1
     {
         padding: 20px 0 0 10px;
         font-size: 3.4em;
@@ -518,7 +521,7 @@ footer
         height: 68px;
         border-radius: 28px;
         padding-top: 28px;
-        padding-bottom: 29px;
+        padding-bottom: 32px;
         font-size: 30px;
         margin-left: -22px;
     }
@@ -580,7 +583,7 @@ footer
     }
     #hebergements h2
     {
-        font-size: 2em;
+        font-size: 3em;
     }
     #hebergements_box
     {
@@ -593,10 +596,24 @@ footer
         width: 750px;
         height: 350px;
         border-radius: 32px;
+        padding-bottom: 50px;
     }
     #h_un, #h_deux, #h_trois, #h_quatre, #h_cinq, #h_six
     {
-        margin-bottom: 300px;
+        margin-bottom: 360px;
+    }
+    #hebergements_box h4, #hebergements_box p
+    {
+        font-size: 1.5em;
+        margin-right: -190px;
+    }
+    #hebergements_box h4
+    {
+        margin-top: -120px;
+    }
+    .h_stars_rate
+    {
+        font-size: 1.3em;
     }
     .plus
     {
@@ -605,43 +622,79 @@ footer
     #populaires
     {
         background-color: #F2F2F2;
-        padding-bottom: 450px;
+        padding-bottom: 620px;
     }
     #populaires h2, .chart_icon
     {
-        font-size: 2em;
+        font-size: 3em;
     }
     #populaires h2
     {
         margin-top: 50px;
-        padding-right: 0px;
+        padding-top: 20px;
     }
     .chart_icon
     {
-        margin-top: -30px;
-        padding-left: 510px;
+        margin-top: -52px;
+        padding-left: 480px;
     }
     #best_box
     {
         flex-direction: column;
-        margin-left: 35px;
-        margin-bottom: 50px; 
+        margin-left: 15px;
     }
     #best_box img
     {
-        width: 350px;
-        height: 280px;
-        padding-right: 100px;
+        width: 390px;
+        height: 330px;
+        padding-right: 190px;
         background-color: white;
         border-radius: 32px;
     }
     #p_un,#p_deux,#p_trois
     {
-        margin-bottom: 180px;
+        margin-bottom: 230px;
     }
     #best_box h4, #best_box p, .p_stars_rate
     {
-        padding-left: 200px;   
+        margin-right: -350px; 
+        margin-left: 420px;
+        font-size: 1.5em;
+    }
+    #best_box h4
+    {
+        margin-top: -260px;
+    }
+    #activity h3
+    {
+        font-size: 2em;
+        margin-left: 205px;
+    }
+    #a_trois, #a_six
+    {
+        margin-left: -5px;
+        margin-top: 10px;
+    }
+    #a_un img, #a_quatre img
+    {
+        width: 600px;
+        height: 900px;
+        padding-bottom: 20px;
+    }
+    #a_deux img, #a_trois img, #a_cinq img, #a_six img
+    {
+        width: 600px;
+        height: 400px;
+        padding-bottom: 20px;
+    }
+    #activity_box h4
+    {
+        margin-top: -50px;
+        font-size: 2em;
+    }
+    footer
+    {
+        font-size: 1.5em;
     }
 }
 @media all and (max-width: 1024px)
