@@ -459,6 +459,10 @@ footer
         height: 140px;
         margin: 10px 0 0 350px;
     }
+    nav a:hover
+    {
+        border-top: white;
+    }
     nav li:nth-child(1), nav li:nth-child(2)
     {
         margin-top: 205px;
